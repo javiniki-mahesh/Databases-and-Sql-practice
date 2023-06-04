@@ -1,0 +1,238 @@
+﻿
+(1 row affected)
+
+(1 row affected)
+NAME                   ID
+---------------------- -----------
+MAHESH                 1
+SURESH                 2
+
+(2 rows affected)
+
+NAME                   ID          DEPTID
+---------------------- ----------- -----------
+MAHESH                 1           NULL
+SURESH                 2           NULL
+
+(2 rows affected)
+
+NAME                   ID          DEPTID
+---------------------- ----------- ---------------------------------
+MAHESH                 1           NULL
+SURESH                 2           NULL
+
+(2 rows affected)
+
+NAME                   ID
+---------------------- -----------
+MAHESH                 1
+SURESH                 2
+
+(2 rows affected)
+
+(1 row affected)
+
+NAME                              AGE
+--------------------------------- -----------
+MAHA                              20
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+ID          FN                                           DOB
+----------- -------------------------------------------- ----------
+2           MAHA                                         2013-11-06
+3           MAHA                                         NULL
+4           MAHA                                         2023-11-06
+
+(3 rows affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+ID          FNAME
+----------- --------------------------------------------
+1           MA
+2           MA
+
+(2 rows affected)
+
+ID          NAME
+----------- ----------------------
+
+(0 rows affected)
+
+ID          NAME
+----------- -------------------------------------------------------
+
+(0 rows affected)
+
+ID          NAME
+----------- -------------------------------------------------------
+
+(0 rows affected)
+
+(1 row affected)
+
+(1 row affected)
+
+ID          NAME
+----------- --------------------------------------------
+2           A
+
+(1 row affected)
+
+ID1         ID
+----------- -----------
+2           2
+
+(1 row affected)
+
+ID1
+-----------
+2
+
+(1 row affected)
+
+ID          NAME                                         NEW_ID
+----------- -------------------------------------------- -----------
+2           A                                            NULL
+
+(1 row affected)
+
+ID1         ID
+----------- -----------
+2           2
+
+(1 row affected)
+
+ID          NAME                                         AGE
+----------- -------------------------------------------- -----------
+
+(0 rows affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+NAME  AGE
+----- -----------
+M     19
+M     22
+
+(2 rows affected)
+
+ID          NAME                                         AGE
+----------- -------------------------------------------- -----------
+1           M                                            19
+
+(1 row affected)
+
+(1 row affected)
+
+ID          NAME                              AGE
+----------- --------------------------------- -----------
+1           M                                 18
+
+(1 row affected)
+
+(1 row affected)
+
+ID          AGE
+----------- ----------
+2           2023-06-04
+
+(1 row affected)
+
+ID          NAME                              AGE
+----------- --------------------------------- -----------
+1           M                                 18
+
+(1 row affected)
+
+(1 row affected)
+
+ID          NAME                              AGE
+----------- --------------------------------- -----------
+1           M                                 18
+2           MAHESH                            34
+
+(2 rows affected)
+
+(1 row affected)
+
+ID          NAME                              AGE
+----------- --------------------------------- -----------
+1           M                                 18
+2           MAHESH                            34
+2           SURESH                            34
+
+(3 rows affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+ID          NAME
+----------- ---------------------------------
+1           MA
+11          HE
+21          SH
+
+(3 rows affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+ID          NAME
+----------- ----------------------
+1           MA
+3           HE
+5           SH
+
+(3 rows affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+DATE1      DATE2                   DATE3                   DATE4
+---------- ----------------------- ----------------------- ------------------
+2003-11-06 NULL                    NULL                    0x00000000000007D1
+NULL       2003-11-06 11:02:11.000 NULL                    0x00000000000007D2
+NULL       NULL                    2003-11-06 11:02:00     0x00000000000007D3
+NULL       NULL                    NULL                    0x00000000000007D4
+NULL       2000-11-06 00:00:00.000 NULL                    0x00000000000007D5
+
+(5 rows affected)
+
+NAME                   ID
+---------------------- -----------
+MAHESH                 1
+SURESH                 2
+
+(2 rows affected)
+
+
+Completion time: 2023-06-04T14:55:13.1412833+05:30
