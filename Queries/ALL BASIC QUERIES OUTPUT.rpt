@@ -1,0 +1,1653 @@
+﻿
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+CID         CNAME
+----------- ---------------------------------
+1           FRUITS
+2           VEGITABLES
+3           SHAMPOOS
+4           CONDITIONORS
+5           GEL
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+111         grapes                                                  23          1
+112         onion                                                   44          2
+113         all clear                                               55          4
+114         livion                                                  66          5
+115         mango                                                   23          1
+116         SUNSILK                                                 87          3
+117         LOREAL                                                  55          5
+118         GILLETE                                                 66          5
+119         APPLE                                                   76          1
+120         BLUNT                                                   54          3
+121         BRINJAL                                                 99          2
+122         BANANA                                                  43          1
+
+(12 rows affected)
+
+PNAME                                                   CNAME
+------------------------------------------------------- ---------------------------------
+onion                                                   VEGITABLES
+all clear                                               CONDITIONORS
+BRINJAL                                                 VEGITABLES
+
+(3 rows affected)
+
+PNAME
+-------------------------------------------------------
+onion
+all clear
+BRINJAL
+
+(3 rows affected)
+
+PNAME
+-------------------------------------------------------
+onion
+all clear
+LOREAL
+BLUNT
+BANANA
+
+(5 rows affected)
+
+PNAME
+-------------------------------------------------------
+onion
+all clear
+LOREAL
+BLUNT
+BANANA
+
+(5 rows affected)
+
+PNAME                                                   PRICE
+------------------------------------------------------- -----------
+onion                                                   44
+all clear                                               55
+LOREAL                                                  55
+BLUNT                                                   54
+BANANA                                                  43
+
+(5 rows affected)
+
+CNAME                             SUM_PRICES
+--------------------------------- -----------
+CONDITIONORS                      55
+FRUITS                            165
+GEL                               187
+SHAMPOOS                          141
+VEGITABLES                        143
+
+(5 rows affected)
+
+CATEGORY_PRICE CNAME
+-------------- ---------------------------------
+55             CONDITIONORS
+165            FRUITS
+187            GEL
+141            SHAMPOOS
+143            VEGITABLES
+
+(5 rows affected)
+
+PRICE
+-----------
+99
+87
+76
+66
+66
+
+(5 rows affected)
+
+PNAME
+-------------------------------------------------------
+BRINJAL
+SUNSILK
+APPLE
+GILLETE
+livion
+all clear
+LOREAL
+BLUNT
+onion
+BANANA
+grapes
+mango
+
+(12 rows affected)
+
+PNAME                                                   PRICE
+------------------------------------------------------- -----------
+BRINJAL                                                 99
+SUNSILK                                                 87
+APPLE                                                   76
+livion                                                  66
+GILLETE                                                 66
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+121         BRINJAL                                                 99          2
+116         SUNSILK                                                 87          3
+119         APPLE                                                   76          1
+118         GILLETE                                                 66          5
+114         livion                                                  66          5
+113         all clear                                               55          4
+117         LOREAL                                                  55          5
+120         BLUNT                                                   54          3
+112         onion                                                   44          2
+122         BANANA                                                  43          1
+111         grapes                                                  23          1
+115         mango                                                   23          1
+
+(12 rows affected)
+
+CID         CNAME
+----------- ---------------------------------
+1           FRUITS
+2           VEGITABLES
+3           SHAMPOOS
+4           CONDITIONORS
+5           GEL
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+111         grapes                                                  23          1
+112         onion                                                   44          2
+113         all clear                                               55          4
+114         livion                                                  66          5
+115         mango                                                   23          1
+116         SUNSILK                                                 87          3
+117         LOREAL                                                  55          5
+118         GILLETE                                                 66          5
+119         APPLE                                                   76          1
+120         BLUNT                                                   54          3
+121         BRINJAL                                                 99          2
+122         BANANA                                                  43          1
+
+(12 rows affected)
+
+cid
+-----------
+1
+2
+3
+4
+5
+
+(5 rows affected)
+
+cid         pname
+----------- -------------------------------------------------------
+1           APPLE
+1           BANANA
+1           grapes
+1           mango
+2           BRINJAL
+2           onion
+3           BLUNT
+3           SUNSILK
+4           all clear
+5           GILLETE
+5           livion
+5           LOREAL
+
+(12 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+grapes                                                  23
+mango                                                   23
+APPLE                                                   76
+BANANA                                                  43
+
+(4 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+all clear                                               55
+livion                                                  66
+SUNSILK                                                 87
+LOREAL                                                  55
+GILLETE                                                 66
+APPLE                                                   76
+BLUNT                                                   54
+BRINJAL                                                 99
+
+(8 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+onion                                                   44
+all clear                                               55
+livion                                                  66
+LOREAL                                                  55
+GILLETE                                                 66
+APPLE                                                   76
+BLUNT                                                   54
+BANANA                                                  43
+
+(8 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+grapes                                                  23
+
+(1 row affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+grapes                                                  1
+mango                                                   1
+SUNSILK                                                 3
+APPLE                                                   1
+BLUNT                                                   3
+BANANA                                                  1
+
+(6 rows affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+onion                                                   2
+all clear                                               4
+livion                                                  5
+SUNSILK                                                 3
+LOREAL                                                  5
+GILLETE                                                 5
+BLUNT                                                   3
+BRINJAL                                                 2
+
+(8 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+onion                                                   44
+BRINJAL                                                 99
+
+(2 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+grapes                                                  23
+mango                                                   23
+BANANA                                                  43
+onion                                                   44
+BLUNT                                                   54
+all clear                                               55
+LOREAL                                                  55
+GILLETE                                                 66
+livion                                                  66
+APPLE                                                   76
+SUNSILK                                                 87
+BRINJAL                                                 99
+
+(12 rows affected)
+
+pname                                                   price
+------------------------------------------------------- -----------
+BRINJAL                                                 99
+SUNSILK                                                 87
+APPLE                                                   76
+GILLETE                                                 66
+livion                                                  66
+all clear                                               55
+LOREAL                                                  55
+BLUNT                                                   54
+onion                                                   44
+BANANA                                                  43
+grapes                                                  23
+mango                                                   23
+
+(12 rows affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+grapes                                                  1
+mango                                                   1
+APPLE                                                   1
+BANANA                                                  1
+BRINJAL                                                 2
+onion                                                   2
+SUNSILK                                                 3
+BLUNT                                                   3
+all clear                                               4
+livion                                                  5
+LOREAL                                                  5
+GILLETE                                                 5
+
+(12 rows affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+APPLE                                                   1
+BANANA                                                  1
+grapes                                                  1
+mango                                                   1
+BRINJAL                                                 2
+onion                                                   2
+BLUNT                                                   3
+SUNSILK                                                 3
+all clear                                               4
+GILLETE                                                 5
+livion                                                  5
+LOREAL                                                  5
+
+(12 rows affected)
+
+pname
+-------------------------------------------------------
+all clear
+APPLE
+BANANA
+BLUNT
+BRINJAL
+GILLETE
+grapes
+livion
+LOREAL
+mango
+onion
+SUNSILK
+
+(12 rows affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+mango                                                   1
+grapes                                                  1
+BANANA                                                  1
+APPLE                                                   1
+onion                                                   2
+BRINJAL                                                 2
+SUNSILK                                                 3
+BLUNT                                                   3
+all clear                                               4
+LOREAL                                                  5
+livion                                                  5
+GILLETE                                                 5
+
+(12 rows affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+mango                                                   1
+grapes                                                  1
+BANANA                                                  1
+APPLE                                                   1
+onion                                                   2
+BRINJAL                                                 2
+SUNSILK                                                 3
+BLUNT                                                   3
+all clear                                               4
+LOREAL                                                  5
+livion                                                  5
+GILLETE                                                 5
+
+(12 rows affected)
+
+pname                                                   cid
+------------------------------------------------------- -----------
+GILLETE                                                 5
+livion                                                  5
+LOREAL                                                  5
+all clear                                               4
+BLUNT                                                   3
+SUNSILK                                                 3
+BRINJAL                                                 2
+onion                                                   2
+APPLE                                                   1
+BANANA                                                  1
+grapes                                                  1
+mango                                                   1
+
+(12 rows affected)
+
+(1 row affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+111         grapes                                                  23          1
+112         onion                                                   44          2
+113         all clear                                               55          4
+114         livion                                                  66          5
+115         mango                                                   23          1
+116         SUNSILK                                                 87          3
+117         LOREAL                                                  55          5
+118         GILLETE                                                 66          5
+119         APPLE                                                   76          1
+120         BLUNT                                                   54          3
+121         BRINJAL                                                 99          2
+122         BANANA                                                  43          1
+123         LIMKA                                                   NULL        NULL
+
+(13 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+111         grapes                                                  23          1
+112         onion                                                   44          2
+113         all clear                                               55          4
+114         livion                                                  66          5
+115         mango                                                   23          1
+116         SUNSILK                                                 87          3
+117         LOREAL                                                  55          5
+118         GILLETE                                                 66          5
+119         APPLE                                                   76          1
+120         BLUNT                                                   54          3
+121         BRINJAL                                                 99          2
+122         BANANA                                                  43          1
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+123         LIMKA                                                   NULL        NULL
+
+(1 row affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+112         onion                                                   44          2
+121         BRINJAL                                                 99          2
+
+(2 rows affected)
+
+(1 row affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+112         onion                                                   44          2
+121         BRINJAL                                                 99          2
+123         LIMKA                                                   NULL        2
+
+(3 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+111         grapes                                                  23          1
+112         onion                                                   44          2
+113         all clear                                               55          4
+114         livion                                                  66          5
+115         mango                                                   23          1
+116         SUNSILK                                                 87          3
+117         LOREAL                                                  55          5
+118         GILLETE                                                 66          5
+119         APPLE                                                   76          1
+120         BLUNT                                                   54          3
+121         BRINJAL                                                 99          2
+122         BANANA                                                  43          1
+123         LIMKA                                                   NULL        2
+
+(13 rows affected)
+
+PID         PNAME                                                   PRICE       CID
+----------- ------------------------------------------------------- ----------- -----------
+111         grapes                                                  23          1
+112         onion                                                   44          2
+113         all clear                                               55          4
+114         livion                                                  66          5
+115         mango                                                   23          1
+116         SUNSILK                                                 87          3
+117         LOREAL                                                  55          5
+118         GILLETE                                                 66          5
+119         APPLE                                                   76          1
+120         BLUNT                                                   54          3
+121         BRINJAL                                                 99          2
+122         BANANA                                                  43          1
+123         LIMKA                                                   NULL        2
+
+(13 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           NULL
+112         onion                                                   44          2           NULL
+113         all clear                                               55          4           NULL
+114         livion                                                  66          5           NULL
+115         mango                                                   23          1           NULL
+116         SUNSILK                                                 87          3           NULL
+117         LOREAL                                                  55          5           NULL
+118         GILLETE                                                 66          5           NULL
+119         APPLE                                                   76          1           NULL
+120         BLUNT                                                   54          3           NULL
+121         BRINJAL                                                 99          2           NULL
+122         BANANA                                                  43          1           NULL
+123         LIMKA                                                   NULL        2           NULL
+
+(13 rows affected)
+
+(4 rows affected)
+
+(13 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+123         LIMKA                                                   NULL        2           20
+
+(13 rows affected)
+
+(1 row affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+CID         CNAME
+----------- ---------------------------------
+1           FRUITS
+2           VEGITABLES
+3           SHAMPOOS
+4           CONDITIONORS
+5           GEL
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+
+(5 rows affected)
+
+PRICE       PNAME
+----------- -------------------------------------------------------
+23          grapes
+44          onion
+55          all clear
+66          livion
+23          mango
+
+(5 rows affected)
+
+PRICE       PNAME
+----------- -------------------------------------------------------
+99          BRINJAL
+87          SUNSILK
+76          APPLE
+66          livion
+66          GILLETE
+
+(5 rows affected)
+
+PRICE       PNAME
+----------- -------------------------------------------------------
+23          mango
+23          grapes
+43          BANANA
+44          onion
+54          BLUNT
+
+(5 rows affected)
+
+
+-----------
+165
+143
+141
+55
+187
+
+(5 rows affected)
+
+
+-----------
+23
+
+(1 row affected)
+
+MIN_PRICE   CID
+----------- -----------
+23          1
+44          2
+54          3
+55          4
+55          5
+
+(5 rows affected)
+
+PNAME                                                   PRICE
+------------------------------------------------------- -----------
+grapes                                                  23
+onion                                                   44
+all clear                                               55
+mango                                                   23
+LOREAL                                                  55
+BLUNT                                                   54
+
+(6 rows affected)
+
+TOTAL_PRICE CID
+----------- -----------
+165         1
+143         2
+141         3
+55          4
+187         5
+
+(5 rows affected)
+
+
+-----------
+99
+
+(1 row affected)
+
+
+-----------
+76
+
+(1 row affected)
+
+            CID
+----------- -----------
+76          1
+99          2
+87          3
+55          4
+66          5
+
+(5 rows affected)
+
+
+-----------
+12
+
+(1 row affected)
+
+COUNTING    CID
+----------- -----------
+4           1
+2           2
+2           3
+1           4
+3           5
+
+(5 rows affected)
+
+PNAME                                                   PRICE
+------------------------------------------------------- -----------
+SUNSILK                                                 87
+APPLE                                                   76
+BRINJAL                                                 99
+
+(3 rows affected)
+
+
+-----------
+3
+
+(1 row affected)
+
+
+-----------
+57
+
+(1 row affected)
+
+            CID
+----------- -----------
+41          1
+71          2
+70          3
+55          4
+62          5
+
+(5 rows affected)
+
+
+-----------
+691
+
+(1 row affected)
+
+            CID
+----------- -----------
+165         1
+143         2
+141         3
+55          4
+187         5
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+113         all clear                                               55          4           20
+119         APPLE                                                   76          1           20
+
+(2 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+122         BANANA                                                  43          1           20
+
+(1 row affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+113         all clear                                               55          4           20
+115         mango                                                   23          1           20
+117         LOREAL                                                  55          5           20
+119         APPLE                                                   76          1           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(7 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+112         onion                                                   44          2           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(7 rows affected)
+
+PNAME
+-------------------------------------------------------
+mango
+BANANA
+
+(2 rows affected)
+
+PNAME
+-------------------------------------------------------
+all clear
+
+(1 row affected)
+
+PNAME
+-------------------------------------------------------
+all clear
+APPLE
+
+(2 rows affected)
+
+PNAME
+-------------------------------------------------------
+all clear
+
+(1 row affected)
+
+PNAME
+-------------------------------------------------------
+grapes
+onion
+livion
+mango
+SUNSILK
+LOREAL
+GILLETE
+BLUNT
+BRINJAL
+BANANA
+
+(10 rows affected)
+
+PNAME
+-------------------------------------------------------
+onion
+livion
+SUNSILK
+GILLETE
+BLUNT
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+113         all clear                                               55          4           20
+119         APPLE                                                   76          1           20
+
+(2 rows affected)
+
+PNAME
+-------------------------------------------------------
+mango
+BANANA
+
+(2 rows affected)
+
+PNAME
+-------------------------------------------------------
+GILLETE
+
+(1 row affected)
+
+PNAME
+-------------------------------------------------------
+mango
+BANANA
+
+(2 rows affected)
+
+PNAME
+-------------------------------------------------------
+BANANA
+
+(1 row affected)
+
+PNAME
+-------------------------------------------------------
+SUNSILK
+BLUNT
+BRINJAL
+BANANA
+
+(4 rows affected)
+
+PNAME
+-------------------------------------------------------
+grapes
+
+(1 row affected)
+
+PNAME
+-------------------------------------------------------
+all clear
+APPLE
+BLUNT
+BRINJAL
+BANANA
+
+(5 rows affected)
+
+PNAME
+-------------------------------------------------------
+grapes
+onion
+livion
+mango
+SUNSILK
+LOREAL
+GILLETE
+
+(7 rows affected)
+
+PNAME
+-------------------------------------------------------
+grapes
+onion
+livion
+mango
+SUNSILK
+LOREAL
+GILLETE
+
+(7 rows affected)
+
+PRICE       PNAME
+----------- -------------------------------------------------------
+23          grapes
+23          mango
+
+(2 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(8 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+
+(4 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+116         SUNSILK                                                 87          3           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+122         BANANA                                                  43          1           20
+
+(7 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+114         livion                                                  66          5           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+
+(6 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+113         all clear                                               55          4           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+113         all clear                                               55          4           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(7 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+113         all clear                                               55          4           20
+119         APPLE                                                   76          1           20
+122         BANANA                                                  43          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+118         GILLETE                                                 66          5           20
+111         grapes                                                  23          1           20
+
+(7 rows affected)
+
+CUSTOMERID
+-----------
+1
+2
+4
+5
+1
+3
+5
+5
+1
+3
+2
+1
+
+(12 rows affected)
+
+UNIQUECUSTOMER
+--------------
+1
+2
+3
+4
+5
+
+(5 rows affected)
+
+MAXPRICE
+-----------
+99
+
+(1 row affected)
+
+PID         PNAME
+----------- -------------------------------------------------------
+111         grapes
+112         onion
+113         all clear
+114         livion
+115         mango
+116         SUNSILK
+117         LOREAL
+118         GILLETE
+119         APPLE
+120         BLUNT
+121         BRINJAL
+122         BANANA
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+CID         CNAME
+----------- ---------------------------------
+1           FRUITS
+2           VEGITABLES
+3           SHAMPOOS
+4           CONDITIONORS
+5           GEL
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY    CID         CNAME
+----------- ------------------------------------------------------- ----------- ----------- ----------- ----------- ---------------------------------
+111         grapes                                                  23          1           20          1           FRUITS
+112         onion                                                   44          2           20          2           VEGITABLES
+113         all clear                                               55          4           20          4           CONDITIONORS
+114         livion                                                  66          5           20          5           GEL
+115         mango                                                   23          1           20          1           FRUITS
+116         SUNSILK                                                 87          3           20          3           SHAMPOOS
+117         LOREAL                                                  55          5           20          5           GEL
+118         GILLETE                                                 66          5           20          5           GEL
+119         APPLE                                                   76          1           20          1           FRUITS
+120         BLUNT                                                   54          3           20          3           SHAMPOOS
+121         BRINJAL                                                 99          2           20          2           VEGITABLES
+122         BANANA                                                  43          1           20          1           FRUITS
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY    CID         CNAME
+----------- ------------------------------------------------------- ----------- ----------- ----------- ----------- ---------------------------------
+111         grapes                                                  23          1           20          1           FRUITS
+112         onion                                                   44          2           20          2           VEGITABLES
+113         all clear                                               55          4           20          4           CONDITIONORS
+114         livion                                                  66          5           20          5           GEL
+115         mango                                                   23          1           20          1           FRUITS
+116         SUNSILK                                                 87          3           20          3           SHAMPOOS
+117         LOREAL                                                  55          5           20          5           GEL
+118         GILLETE                                                 66          5           20          5           GEL
+119         APPLE                                                   76          1           20          1           FRUITS
+120         BLUNT                                                   54          3           20          3           SHAMPOOS
+121         BRINJAL                                                 99          2           20          2           VEGITABLES
+122         BANANA                                                  43          1           20          1           FRUITS
+
+(12 rows affected)
+
+CID         CNAME                             PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- --------------------------------- ----------- ------------------------------------------------------- ----------- ----------- -----------
+1           FRUITS                            111         grapes                                                  23          1           20
+2           VEGITABLES                        112         onion                                                   44          2           20
+4           CONDITIONORS                      113         all clear                                               55          4           20
+5           GEL                               114         livion                                                  66          5           20
+1           FRUITS                            115         mango                                                   23          1           20
+3           SHAMPOOS                          116         SUNSILK                                                 87          3           20
+5           GEL                               117         LOREAL                                                  55          5           20
+5           GEL                               118         GILLETE                                                 66          5           20
+1           FRUITS                            119         APPLE                                                   76          1           20
+3           SHAMPOOS                          120         BLUNT                                                   54          3           20
+2           VEGITABLES                        121         BRINJAL                                                 99          2           20
+1           FRUITS                            122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+CID         CNAME                             PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- --------------------------------- ----------- ------------------------------------------------------- ----------- ----------- -----------
+1           FRUITS                            111         grapes                                                  23          1           20
+1           FRUITS                            115         mango                                                   23          1           20
+1           FRUITS                            119         APPLE                                                   76          1           20
+1           FRUITS                            122         BANANA                                                  43          1           20
+2           VEGITABLES                        112         onion                                                   44          2           20
+2           VEGITABLES                        121         BRINJAL                                                 99          2           20
+3           SHAMPOOS                          116         SUNSILK                                                 87          3           20
+3           SHAMPOOS                          120         BLUNT                                                   54          3           20
+4           CONDITIONORS                      113         all clear                                               55          4           20
+5           GEL                               114         livion                                                  66          5           20
+5           GEL                               117         LOREAL                                                  55          5           20
+5           GEL                               118         GILLETE                                                 66          5           20
+
+(12 rows affected)
+
+CID         CNAME                             PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- --------------------------------- ----------- ------------------------------------------------------- ----------- ----------- -----------
+1           FRUITS                            111         grapes                                                  23          1           20
+2           VEGITABLES                        112         onion                                                   44          2           20
+4           CONDITIONORS                      113         all clear                                               55          4           20
+5           GEL                               114         livion                                                  66          5           20
+1           FRUITS                            115         mango                                                   23          1           20
+3           SHAMPOOS                          116         SUNSILK                                                 87          3           20
+5           GEL                               117         LOREAL                                                  55          5           20
+5           GEL                               118         GILLETE                                                 66          5           20
+1           FRUITS                            119         APPLE                                                   76          1           20
+3           SHAMPOOS                          120         BLUNT                                                   54          3           20
+2           VEGITABLES                        121         BRINJAL                                                 99          2           20
+1           FRUITS                            122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+CID         CNAME                             PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- --------------------------------- ----------- ------------------------------------------------------- ----------- ----------- -----------
+1           FRUITS                            111         grapes                                                  23          1           20
+1           FRUITS                            115         mango                                                   23          1           20
+1           FRUITS                            119         APPLE                                                   76          1           20
+1           FRUITS                            122         BANANA                                                  43          1           20
+2           VEGITABLES                        112         onion                                                   44          2           20
+2           VEGITABLES                        121         BRINJAL                                                 99          2           20
+3           SHAMPOOS                          116         SUNSILK                                                 87          3           20
+3           SHAMPOOS                          120         BLUNT                                                   54          3           20
+4           CONDITIONORS                      113         all clear                                               55          4           20
+5           GEL                               114         livion                                                  66          5           20
+5           GEL                               117         LOREAL                                                  55          5           20
+5           GEL                               118         GILLETE                                                 66          5           20
+
+(12 rows affected)
+
+CID         CNAME
+----------- ---------------------------------
+1           FRUITS
+2           VEGITABLES
+3           SHAMPOOS
+4           CONDITIONORS
+5           GEL
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+CID
+-----------
+1
+2
+3
+4
+5
+
+(5 rows affected)
+
+CID
+-----------
+1
+2
+4
+5
+1
+3
+5
+5
+1
+3
+2
+1
+1
+2
+3
+4
+5
+
+(17 rows affected)
+
+CID
+-----------
+4
+5
+
+(2 rows affected)
+
+CID
+-----------
+4
+5
+5
+5
+4
+5
+
+(6 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+
+(4 rows affected)
+
+CID         CNAME
+----------- ---------------------------------
+1           FRUITS
+2           VEGITABLES
+3           SHAMPOOS
+4           CONDITIONORS
+5           GEL
+
+(5 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+CID
+-----------
+1
+2
+3
+4
+5
+
+(5 rows affected)
+
+            CID
+----------- -----------
+4           1
+2           2
+2           3
+1           4
+3           5
+
+(5 rows affected)
+
+COUNT_CID   CID
+----------- -----------
+4           1
+3           5
+2           2
+2           3
+1           4
+
+(5 rows affected)
+
+
+-----------
+691
+
+(1 row affected)
+
+COUNTING    CID
+----------- -----------
+1           4
+3           5
+
+(2 rows affected)
+
+SUM         CID
+----------- -----------
+165         1
+143         2
+141         3
+55          4
+
+(4 rows affected)
+
+PNAME                                                   PRICE
+------------------------------------------------------- -----------
+grapes                                                  23
+onion                                                   44
+all clear                                               55
+livion                                                  66
+mango                                                   23
+SUNSILK                                                 87
+LOREAL                                                  55
+GILLETE                                                 66
+APPLE                                                   76
+BLUNT                                                   54
+BRINJAL                                                 99
+BANANA                                                  43
+
+(12 rows affected)
+
+CID
+-----------
+4
+5
+5
+5
+
+(4 rows affected)
+
+PNAME                                                   PRICE       CID
+------------------------------------------------------- ----------- -----------
+grapes                                                  23          1
+onion                                                   44          2
+all clear                                               55          4
+livion                                                  66          5
+mango                                                   23          1
+SUNSILK                                                 87          3
+LOREAL                                                  55          5
+GILLETE                                                 66          5
+APPLE                                                   76          1
+BLUNT                                                   54          3
+BRINJAL                                                 99          2
+BANANA                                                  43          1
+
+(12 rows affected)
+
+PNAME                                                   PRICE       CID
+------------------------------------------------------- ----------- -----------
+all clear                                               55          4
+livion                                                  66          5
+LOREAL                                                  55          5
+GILLETE                                                 66          5
+
+(4 rows affected)
+
+CID
+-----------
+1
+2
+4
+1
+3
+1
+3
+2
+1
+
+(9 rows affected)
+
+PNAME                                                   PRICE       CID
+------------------------------------------------------- ----------- -----------
+grapes                                                  23          1
+onion                                                   44          2
+all clear                                               55          4
+livion                                                  66          5
+mango                                                   23          1
+SUNSILK                                                 87          3
+LOREAL                                                  55          5
+GILLETE                                                 66          5
+APPLE                                                   76          1
+BLUNT                                                   54          3
+BRINJAL                                                 99          2
+BANANA                                                  43          1
+
+(12 rows affected)
+
+PNAME                                                   PRICE       CID
+------------------------------------------------------- ----------- -----------
+grapes                                                  23          1
+onion                                                   44          2
+all clear                                               55          4
+mango                                                   23          1
+SUNSILK                                                 87          3
+APPLE                                                   76          1
+BLUNT                                                   54          3
+BRINJAL                                                 99          2
+BANANA                                                  43          1
+
+(9 rows affected)
+
+CID
+-----------
+5
+5
+5
+
+(3 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+114         livion                                                  66          5           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+
+(3 rows affected)
+
+CID
+-----------
+
+(0 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+
+(0 rows affected)
+
+CID
+-----------
+1
+2
+4
+5
+1
+3
+5
+5
+1
+3
+2
+1
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+115         mango                                                   23          1           20
+119         APPLE                                                   76          1           20
+122         BANANA                                                  43          1           20
+
+(4 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+
+(0 rows affected)
+
+(12 rows affected)
+
+PID         PNAME                                                   PRICE       CID         VALIDITY
+----------- ------------------------------------------------------- ----------- ----------- -----------
+111         grapes                                                  23          1           20
+112         onion                                                   44          2           20
+113         all clear                                               55          4           20
+114         livion                                                  66          5           20
+115         mango                                                   23          1           20
+116         SUNSILK                                                 87          3           20
+117         LOREAL                                                  55          5           20
+118         GILLETE                                                 66          5           20
+119         APPLE                                                   76          1           20
+120         BLUNT                                                   54          3           20
+121         BRINJAL                                                 99          2           20
+122         BANANA                                                  43          1           20
+
+(12 rows affected)
+
+(12 rows affected)
+
+PNAME                                                   PRICE
+------------------------------------------------------- -----------
+grapes                                                  23
+onion                                                   44
+all clear                                               55
+livion                                                  66
+mango                                                   23
+SUNSILK                                                 87
+LOREAL                                                  55
+GILLETE                                                 66
+APPLE                                                   76
+BLUNT                                                   54
+BRINJAL                                                 99
+BANANA                                                  43
+
+(12 rows affected)
+
+(12 rows affected)
+
+PNAME                     PRICE
+------------------------- -----------
+grapes                    23
+onion                     44
+all clear                 55
+livion                    66
+mango                     23
+SUNSILK                   87
+LOREAL                    55
+GILLETE                   66
+APPLE                     76
+BLUNT                     54
+BRINJAL                   99
+BANANA                    43
+
+(12 rows affected)
+
+PNAME                     REVIEW
+------------------------- ---------------
+grapes                    CHEAP
+onion                     CHEAP
+all clear                 VALUE FOR MONEY
+livion                    VALUE FOR MONEY
+mango                     CHEAP
+SUNSILK                   EXPENSIVE
+LOREAL                    VALUE FOR MONEY
+GILLETE                   VALUE FOR MONEY
+APPLE                     EXPENSIVE
+BLUNT                     VALUE FOR MONEY
+BRINJAL                   EXPENSIVE
+BANANA                    CHEAP
+
+(12 rows affected)
+
+
+Completion time: 2023-06-04T19:18:04.5979961+05:30
